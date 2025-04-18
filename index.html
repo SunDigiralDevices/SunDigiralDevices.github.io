@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "script.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>สวัสดีจาก HTML</h1>
+
+    <label for="value">value : </label>
+    <input type="number" id="value" value="1" required>
+    
+    <label for = "interest">interest in % : </label>
+    <input type = "number" id = "interest" required>
+
+    <label for = "period">period : </label>
+    <input type = "number" id = "period" required>
+
+    <label for = "g">g (for Geo Series) : </label>
+    <input type="number" id="g" value="1" required>
+
+
+    <button onclick="calculateForce()">find factor</button>
+    <h3>Single Payment</h3>
+    <div id="single_payment"></div>
+    <h3>Series</h3>
+    <div id="Series"></div>
+    <h3>Geometric-Gradient Series</h3>
+    <div id = "Geo_gradient"></div>
+</body>
+</html>
